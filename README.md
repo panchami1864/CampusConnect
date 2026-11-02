@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CampusConnect – Smart College Management Portal
 
-## Getting Started
+## About the Project
 
-First, run the development server:
+CampusConnect is a student-friendly college management portal developed using Next.js and Tailwind CSS.
+
+It provides a single platform where students can view college announcements, explore events, register for activities, and track their assignments.
+
+## Features
+
+- Student Dashboard
+- Student Profile
+- Announcements Management
+- College Events
+- Event Registration
+- Assignment Tracking
+- Assignment Completion Status
+- Responsive User Interface
+
+## Technologies Used
+
+- Next.js
+- React.js
+- JavaScript
+- Tailwind CSS
+- React Context API
+- Local Storage
+
+## Project Structure
+
+```text
+campus-connect/
+├── app/
+│   ├── announcements/
+│   ├── assignments/
+│   ├── events/
+│   ├── profile/
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+├── components/
+├── Context/
+├── public/
+├── DESIGN-SYSTEM.md
+└── README.md
+```
+
+## Installation and Setup
+
+1. Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+2. Open the project folder:
+
+```bash
+cd campus-connect
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Team Members
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Team Member 1: [K V Panchami]
+- Team Member 2: [Ashwini]
+- Team Member 3: [Sneha Sobanad]
 
-## Learn More
+## Project Status
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Minimum Viable Product (MVP) developed for the college milestone assignment.
